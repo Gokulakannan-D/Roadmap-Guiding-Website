@@ -57,7 +57,7 @@ body {
   border: none;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
+  border-radius: 1;
 }
 .btn:hover {
   background-color: var(--clr-primary-light);
@@ -94,14 +94,14 @@ body {
   --f-design: "Playwrite VN", serif;
   --f-brand: "Macondo", serif;
   /*colors*/
-  --clr-white: #fff;
-  --clr-dark: #333;
-  --clr-grey-1: #102a42;
-  --clr-grey-2: #617d98;
-  --clr-grey-3: #f1f5f8;
-  --clr-primary: #f53b57;
-  --clr-primary-light: #f04660;
-  --clr-secondary: #e9b949;
+  --clr-white: #f8f9fa;
+  --clr-dark: #1a1a2e;
+  --clr-grey-1: #16213e;
+  --clr-grey-2: #0f3460;
+  --clr-grey-3: #eaeaea;
+  --clr-primary: #ff4c29; /* Bold Fiery Red */
+  --clr-primary-light: #ff6f5e;
+  --clr-secondary: #ffd700;
   /*transition*/
   --transition: all 0.3s linear;
 }
@@ -265,7 +265,7 @@ body {
 .banner-btn {
   font-size: 1rem;
   padding: 0.75rem 2rem;
-  border-radius: 1000px;
+  border-radius: 20px;
   background-image: linear-gradient(
     180deg,
     var(--clr-primary) 80%,
@@ -492,7 +492,7 @@ body {
   font-size: 0.75rem;
   text-transform: capitalize;
   padding: 0.4rem 0.8rem;
-  border-radius: 3px;
+  border-radius: 300px;
   font-weight: 400;
   margin-top: 1.25rem;
 }
@@ -622,6 +622,7 @@ textarea.form-control {
 .submit-btn {
   padding: 0.7rem 1rem;
   margin-top: 3.5rem;
+  border-radius: 10px;
 }
 @media screen and (min-width: 992px) {
   .contact-form,
