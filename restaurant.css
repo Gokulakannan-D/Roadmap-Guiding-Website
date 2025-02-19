@@ -6,8 +6,7 @@
  
 }
 body{
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+  
 }
 
 /* Gobal css*/
@@ -48,6 +47,8 @@ body {
   background-color: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 /*----------------*/
 .btn {
