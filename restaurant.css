@@ -663,6 +663,9 @@ textarea.form-control {
 .company {
   color: var(--clr-primary);
 }
+.contact-item h4{
+  font-size: 1.2rem;
+}
 
 /*----------Scroll Bar -------------------*/
 body::-webkit-scrollbar {
