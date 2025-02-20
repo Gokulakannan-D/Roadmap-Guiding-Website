@@ -97,7 +97,7 @@ body {
 :root {
   --f-primary: "Inter", serif;
   --f-secondary: "Roboto Flex", serif;
-  --f-design: "Playwrite VN", serif;
+  --f-design: "Roboto", serif;
   --f-brand: "Macondo", serif;
   /*colors*/
   --clr-white: #f8f9fa;
@@ -212,7 +212,7 @@ body {
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./Images/Banner1.jpg) center/cover no-repeat fixed;
+    url(./pexels-goumbik-574071.jpg) center/cover no-repeat ;
   position: relative;
 }
 .header .banner {
